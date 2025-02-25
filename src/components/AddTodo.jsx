@@ -65,7 +65,9 @@ function AddTodo() {
       <button
         type="submit"
         // className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-        className="w-full sm:w-auto bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:from-indigo-600 hover:to-purple-600 transform hover:-translate-y-1 transition-transform duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-400"
+        // className="w-full sm:w-auto bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:from-indigo-600 hover:to-purple-600 transform hover:-translate-y-1 transition-transform duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-400"
+        className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg 
+               transform transition-all duration-300 ease-in-out hover:scale-110"
       >
         Add
       </button>
